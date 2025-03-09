@@ -1,0 +1,15 @@
+D:\Programming\C#\KPL\tp4\tp4_103022300003\bin\Debug\net8.0\tp4_103022300003.exe
+D:\Programming\C#\KPL\tp4\tp4_103022300003\bin\Debug\net8.0\tp4_103022300003.deps.json
+D:\Programming\C#\KPL\tp4\tp4_103022300003\bin\Debug\net8.0\tp4_103022300003.runtimeconfig.json
+D:\Programming\C#\KPL\tp4\tp4_103022300003\bin\Debug\net8.0\tp4_103022300003.dll
+D:\Programming\C#\KPL\tp4\tp4_103022300003\bin\Debug\net8.0\tp4_103022300003.pdb
+D:\Programming\C#\KPL\tp4\tp4_103022300003\obj\Debug\net8.0\tp4_103022300003.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\C#\KPL\tp4\tp4_103022300003\obj\Debug\net8.0\tp4_103022300003.AssemblyInfoInputs.cache
+D:\Programming\C#\KPL\tp4\tp4_103022300003\obj\Debug\net8.0\tp4_103022300003.AssemblyInfo.cs
+D:\Programming\C#\KPL\tp4\tp4_103022300003\obj\Debug\net8.0\tp4_103022300003.csproj.CoreCompileInputs.cache
+D:\Programming\C#\KPL\tp4\tp4_103022300003\obj\Debug\net8.0\tp4_103022300003.sourcelink.json
+D:\Programming\C#\KPL\tp4\tp4_103022300003\obj\Debug\net8.0\tp4_103022300003.dll
+D:\Programming\C#\KPL\tp4\tp4_103022300003\obj\Debug\net8.0\refint\tp4_103022300003.dll
+D:\Programming\C#\KPL\tp4\tp4_103022300003\obj\Debug\net8.0\tp4_103022300003.pdb
+D:\Programming\C#\KPL\tp4\tp4_103022300003\obj\Debug\net8.0\tp4_103022300003.genruntimeconfig.cache
+D:\Programming\C#\KPL\tp4\tp4_103022300003\obj\Debug\net8.0\ref\tp4_103022300003.dll
