@@ -1,4 +1,18 @@
-﻿class KodePos {
+﻿using static doormachine;
+
+class doormachine {
+    public enum DoorState { 
+        TERKUNCI,
+        TERBBUKA
+    };
+    public enum Trigger {
+        KunciPintu,
+        BukaPintu
+    };
+}
+
+
+class KodePos {
     public enum kelurahan {
         Batununggal,
         Kujangsari,
@@ -35,5 +49,55 @@ class Program
     {
         KodePos kodePos = new KodePos();
 
+
+        DoorState state = DoorState.TERKUNCI;
+        Console.Write("Pintu Terkunci");
+        string cmd = "";
+
+        while (cmd != "ext")
+        {
+            Console.Write(" \n \"ext\" to Exit \n Enter Command : ");
+            cmd = Console.ReadLine();
+
+            switch (state)
+            {
+                case DoorState.TERKUNCI:
+                    if (cmd == "BukaPintu")
+                    {
+                        state = DoorState.TERBBUKA;
+                        Console.Write("Pintu Terbuka");
+                    }
+                    else if (cmd == "KunciPintu") {
+                        state = DoorState.TERKUNCI;
+                        Console.Write("Pintu Terkunci");
+                    }
+                    else if (cmd == "ext")
+                    {
+                    }
+                    else {
+                        Console.WriteLine("Masukkan salah");
+                    }
+                    break;
+                case DoorState.TERBBUKA:
+                    if (cmd == "BukaPintu")
+                    {
+                        state = DoorState.TERBBUKA;
+                        Console.Write("Pintu Terbuka");
+                    }
+                    else if (cmd == "KunciPintu")
+                    {
+                        state = DoorState.TERKUNCI;
+                        Console.Write("Pintu Terkunci");
+                    }
+                    else if (cmd == "ext")
+                    {
+                    }
+                    else
+                    {
+                        Console.WriteLine("Masukkan salah");
+                    }
+                    break;
+            }
+        }
     }
 }
