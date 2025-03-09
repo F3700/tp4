@@ -47,6 +47,7 @@ class Program
 {
     static void Main()
     {
+        /*
         KodePos kodePos = new KodePos();
 
 
@@ -75,6 +76,7 @@ class Program
                     {
                     }
                     else {
+                        Console.WriteLine("Pintu Terbuka");
                         Console.WriteLine("Masukkan salah");
                     }
                     break;
@@ -94,10 +96,28 @@ class Program
                     }
                     else
                     {
+                        Console.WriteLine("Pintu Terbuka");
                         Console.WriteLine("Masukkan salah");
                     }
                     break;
             }
+            Console.WriteLine("");
         }
+        */
+        KodePos kodePos = new KodePos();
+
+        Console.WriteLine("Daftar Kode Pos kelurahan:\n");
+
+        Console.WriteLine("Kode Pos Batununggal: " + kodePos.getKodePost(KodePos.kelurahan.Batununggal));
+        Console.WriteLine("Kode Pos Kujangsari: " + kodePos.getKodePost(KodePos.kelurahan.Kujangsari));
+        Console.WriteLine("Kode Pos Mengger: " + kodePos.getKodePost(KodePos.kelurahan.Mengger));
+        Console.WriteLine("Kode Pos Wates: " + kodePos.getKodePost(KodePos.kelurahan.Wates));
+        Console.WriteLine("Kode Pos Cijaura: " + kodePos.getKodePost(KodePos.kelurahan.Cijaura));
+        Console.WriteLine("Kode Pos Jatisari: " + kodePos.getKodePost(KodePos.kelurahan.Jatisari));
+        Console.WriteLine("Kode Pos Margasari: " + kodePos.getKodePost(KodePos.kelurahan.Margasari));
+        Console.WriteLine("Kode Pos Sekejati: " + kodePos.getKodePost(KodePos.kelurahan.Sekejati));
+        Console.WriteLine("Kode Pos Kebonwaru: " + kodePos.getKodePost(KodePos.kelurahan.Kebonwaru));
+        Console.WriteLine("Kode Pos Maleer: " + kodePos.getKodePost(KodePos.kelurahan.Maleer));
+        Console.WriteLine("Kode Pos Samoja: " + kodePos.getKodePost(KodePos.kelurahan.Samoja));
     }
 }
